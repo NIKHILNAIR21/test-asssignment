@@ -96,9 +96,9 @@ const Accordion = ({
     if (
       !isEditing &&
       (!editingCelebrity || editingCelebrity.id !== celebrityId)
-    )
-      return;
-    onAccordionToggle();
+    ) {
+      onAccordionToggle();
+    }
   };
   return (
     <div className="w-[50%] border-2 mx-auto my-7 rounded-lg">
